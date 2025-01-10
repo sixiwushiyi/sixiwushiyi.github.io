@@ -1,0 +1,112 @@
+/* 整体页面开始 */
+.Page {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  background-color: #4e657a;
+  display: block;
+  width: 1420px;
+  height: 653px;
+}
+.Home {
+  display: block;
+  unicode-bidi: isolate;
+  /* overflow-x: hidden; */
+}
+/* 顶部开始 */
+.Top_Container {
+  margin: 10px;
+  height: 60px;
+  background-color: #567086;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.Top_Title_Container {
+  flex: 10;
+  white-space: nowrap;
+  text-align: left;
+  text-decoration: none;
+}
+.Top_Title {
+  text-transform: uppercase;
+  color: #fff;
+  margin: auto;
+  font-size: 40px;
+  unicode-bidi: isolate;
+}
+.Top_Time_Container {
+  flex: 2;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.Top_Time {
+  text-align: center;
+  margin: 20px;
+  font-weight: normal;
+  color: #f5a623;
+  font-size: 12px;
+  unicode-bidi: isolate;
+}
+.Save_Data_Button {
+  flex: 1;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+  font-weight: normal;
+  background-color: #f5a623;
+  border: 1px solid #f5a623;
+  color: #fff;
+  font-size: 20px;
+  unicode-bidi: isolate;
+  cursor: pointer;
+}
+/* 顶部结束 */
+/* 导航栏开始 */
+.Nav_Container {
+  height: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 10px;
+  margin-top: 20px;
+  position: relative;
+  unicode-bidi: isolate;
+  display: flex;
+  justify-content: space-between;
+  background-color: #455c71;
+  text-decoration: none;
+}
+.Nav_Colums {
+  height: 36px;
+  white-space: nowrap;
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+.Nav_Colums_clicked {
+  background-color: #f5a623; /* 点击后背景颜色 */
+  color: #fff;
+  border: 2px solid #f5a623;
+  text-align: center;
+  text-decoration: none;
+}
+.Nav_Colums_default {
+  background-color: #f5a623;
+  color: #fff;
+  border: 2px solid #f5a623;
+  text-align: center;
+  text-decoration: none;
+}
+.Nav_Name {
+  font-weight: normal;
+  margin: auto;
+  font-size: 25px;
+  unicode-bidi: isolate;
+  transition: 0.1s ease;
+}
+.Nav_Colums:hover {
+  background-color: #567086;
+  color: #f5a623;
+}
+/* 导航栏结束 */
